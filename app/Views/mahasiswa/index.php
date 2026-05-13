@@ -23,7 +23,7 @@
         <div class="card">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
                 <div>
-                    <h2 class="page-title">Manajemen Mahasiswa</h2>
+                    <h2 class="page-title">Manage Mahasiswa</h2>
                     <p class="page-sub">Implementasi DML: SELECT & DELETE</p>
                 </div>
                 <a href="<?= base_url('mahasiswa/tambah') ?>" class="btn btn-primary">+ Tambah Mahasiswa</a>
