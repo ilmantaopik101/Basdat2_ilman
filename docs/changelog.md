@@ -3,3 +3,5 @@
 ## Added
 - Menambahkan fitur login
 - Menambahkan validasi mahasiswa
+## Changed
+- Mengubah nama menu Data Mahasiswa menjadi Manajemen Mahasiswa
