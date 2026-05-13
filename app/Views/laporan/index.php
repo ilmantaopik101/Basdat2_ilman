@@ -2,7 +2,7 @@
 
 <?= $this->section('content') ?>
 <div class="main-content-inner">
-    <h2 class="page-title">Laporan Analitik Mahasiswa</h2>
+    <h2 class="page-title">Laporan Akademik</h2>
     <p class="page-sub">Implementasi Subquery: Filter Dinamis (Bab 6)</p>
 
     <div class="card">

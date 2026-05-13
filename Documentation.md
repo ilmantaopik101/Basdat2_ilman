@@ -10,6 +10,8 @@ Project sistem informasi akademik berbasis web menggunakan CodeIgniter 4.
 - CRUD Mahasiswa
 - CRUD Dosen
 - CRUD Nilai
+- Laporan Akademik
+- Transkrip
 
 ---
 
