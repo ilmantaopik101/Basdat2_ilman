@@ -41,3 +41,13 @@ $routes->get('/transkrip/(:segment)', 'Transkrip::detail/$1');
 
 // Laporan — Aggregate + Subquery (Bab 5+6)
 $routes->get('/laporan', 'Laporan::index');
+
+// Auth
+$routes->get('login', 'Auth::login');
+$routes->post('auth/proses_login', 'Auth::proses_login');
+$routes->get('logout', 'Auth::logout');
+
+// Proteksi semua halaman kecuali login
+$routes->group('', ['filter' => 'auth'], function($routes) {
+
+});
