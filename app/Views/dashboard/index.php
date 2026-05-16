@@ -10,6 +10,10 @@
             <div class="stat-label">Total Dosen</div>
             <div class="stat-value"><?= $total_dosen ?></div>
         </div>
+         <div class="stat-card">
+            <div class="stat-label">Total Matakuliah</div>
+            <div class="stat-value"><?= $total_mk ?></div>
+        </div>
     </div>
 
     <div class="card">
