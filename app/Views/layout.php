@@ -8,8 +8,7 @@
 <body>
     <div class="sidebar">
         <div class="sidebar-logo">
-            <div class="logo-icon">U</div>
-            <span>SIAKAD UNIPI</span>
+            <img src="<?= base_url('/assets/image/logo3.png') ?>" alt="Logo" class="logo-img">
         </div>
         <nav>
             <a href="<?= base_url('/') ?>" class="nav-item">Dashboard (Bab 1)</a>
@@ -26,7 +25,7 @@
 
     <div class="main-content">
         <h2 class="page-title"><?= $title ?? 'Dashboard' ?></h2>
-        <p class="page-sub">SIAKAD UNIPI - Teknik Komputer</p>
+        <p class="page-sub">SIAKAD UNIPI - Teknik Informatika</p>
         
         <?= $this->renderSection('content') ?>
     </div>
